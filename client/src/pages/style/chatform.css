@@ -1,0 +1,79 @@
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    min-height: calc(100vh - 40px); /* Adjusted height */
+    margin: 20px auto; /* Center the container */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .head3 {
+    background-color: #075e54; /* WhatsApp green */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chatform {
+    height: auto; /* Auto height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .head4 {
+    background-color: #ededed; /* Light gray background */
+    margin: 10px 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputbox {
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    flex: 1; /* Take remaining width */
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #25d366; /* WhatsApp green */
+    color: #fff; /* White text */
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .message-container {
+    width: 100%;
+    max-height: calc(100vh - 250px); /* Adjusted height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .message {
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word; /* Wrap long messages */
+  }
+  
+  .message-left {
+    background-color: #fff; /* White background for received messages */
+    color: #000; /* Black text */
+    text-align: left;
+  }
+  
+  .message-right {
+    background-color: #dcf8c6; /* Light green background for sent messages */
+    color: #000; /* Black text */
+    text-align: right;
+  }
+  

@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyBYVMZ7iCWlMAdbmIFaTBXBhkCrDNCx4xE",
+  authDomain: "healthbridge2-d5df5.firebaseapp.com",
+  projectId: "healthbridge2-d5df5",
+  storageBucket: "healthbridge2-d5df5.appspot.com",
+  messagingSenderId: "414073116217",
+  appId: "1:414073116217:web:621719f9314f5da4419fe8"
+};

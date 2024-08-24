@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+.navdiv{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;   
+}
+
+.ul li,a{
+    text-decoration: none;
+    margin: 10px;
+    align-self: center;
+    color: black;
+    text-shadow: 5px 5px 10px;
+}
+
+
+
+.ul li:hover{
+    cursor: pointer;
+    font-size: large;
+}
+
+.logo{
+    width: 70px;
+}
+.search{
+    height: 30px;
+    align-self: center;
+    width: 300px;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0px 10px;
+    background-color: rgb(226, 226, 226);
+}
+.left{
+    width: 20vw;
+    border: 1px solid rgb(189, 189, 189);
+    height: 100%;
+}
+.left ul{
+    list-style: none;
+    
+}
+.left ul li{
+    margin: 30px ;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    
+}
+.left ul li:hover{
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.lrhandler{
+    display: flex;
+}
+
+
+.libtn button{
+    border-style: none;
+    background-color: white;
+}
+

@@ -1,0 +1,24 @@
+.act_div{
+    width: 74vw;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    /* border: 2px solid red; */
+}
+
+.act_head{
+    font-size: 3rem;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.act_ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(241, 235, 226);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 30px 0px;
+}
+
+.act_ul li{
+    margin: 10px 30px;
+}
